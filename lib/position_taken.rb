@@ -5,6 +5,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", "X", " "]
 def position_taken?(array,index)
   if array[index] == " "
     true
+  elsif array[index] == ""
   else
     false
   end
