@@ -2,6 +2,7 @@
 
 board = ["", "", "", "", "", "", "", "", ""]
 
-def position_taken?(board,index)
-
+def position_taken?(array,index)
+  if board[index] == " "
+    
 end
