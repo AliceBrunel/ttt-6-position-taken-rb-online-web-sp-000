@@ -1,8 +1,9 @@
 # code your #position_taken? method here!
 
-board = ["", "", "", "", "", "", "", "", ""]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(array,index)
-  if board[index] == " "
+  if array[index] == " "
+    true
     
 end
